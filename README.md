@@ -41,4 +41,4 @@ But you should prob set up an alias for `bundle exec`
 
 I love :coffee: but CoffeeScript has preformed its job and I will be using JavaScript to learn vanilla JS.
 
-There are no tests.
+There is one test.
