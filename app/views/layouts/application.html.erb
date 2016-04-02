@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <%= render 'partials/navbar' %>
+    <%= render 'partials/flash' %>
     <%= yield %>
+    <% if Rails.env.development? %>
+      <%= console %>
+    <% end %>
   </body>
 </html>
