@@ -1,0 +1,19 @@
+Rails:
+  Enabled: true
+AllCops:
+  Exclude:
+    - 'bin/*' # Ignore Generated bins
+    # Ignore Generated Files
+    - 'config/**/*'
+    - 'db/seeds.rb'
+    - 'db/**/*'
+
+Metrics/LineLength:
+ Exclude:
+   - 'test/**/*'
+   - 'lib/tasks/*'
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/**/*'

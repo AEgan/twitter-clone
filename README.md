@@ -2,6 +2,9 @@
 
 ### Badges
 [![Build Status](https://travis-ci.org/AEgan/twitter-clone.svg?branch=master)](https://travis-ci.org/AEgan/twitter-clone)
+[![Code Climate](https://codeclimate.com/github/AEgan/twitter-clone/badges/gpa.svg)](https://codeclimate.com/github/AEgan/twitter-clone)
+[![Test Coverage](https://codeclimate.com/github/AEgan/twitter-clone/badges/coverage.svg)](https://codeclimate.com/github/AEgan/twitter-clone/coverage)
+[![Issue Count](https://codeclimate.com/github/AEgan/twitter-clone/badges/issue_count.svg)](https://codeclimate.com/github/AEgan/twitter-clone)
 
 This app is to serve as a sandbox of sorts. It's a blank slate rails application that I will learn as a learning tool, because it will allow me to learn things in isolation where it's perfectly ok to break the build, without having to deal with any legacy code. Right now the goals are (in no particular order):
 
@@ -38,4 +41,4 @@ But you should prob set up an alias for `bundle exec`
 
 I love :coffee: but CoffeeScript has preformed its job and I will be using JavaScript to learn vanilla JS.
 
-There are no tests.
+There is one test.
